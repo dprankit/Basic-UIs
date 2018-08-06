@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 3</title>
+	<style type="text/css">
+		#outer{
+			height: 1700px;
+			width: 1000px;
+			font-family: arial;
+			/*border: 1px solid white;*/
+			margin: 0px auto;
+		}
+		#menu{
+			height: 50px;
+			width: 1000px;
+			background-color: #fffbf7;
+			border-radius: 20px 20px 0px 0px;
+		}
+		#menu ul{
+			list-style-type: none;
+		}
+		#menu ul li {
+			display: inline;
+			//border: 1px solid;
+			color: black;
+			font-family: verdana;
+			padding: 10px;
+		}
+		#slider{
+			height: 250px;
+			width: 1000px;
+			/*border: 1px solid white;*/
+			margin-top: 5px;
+
+		}
+		#parent{
+			height:1000px; 
+			width : 1000px;
+			margin-top: 5px;
+			/*border: 1px solid white;*/
+		}
+		#lside{
+			height: 1000px;
+			width: 700px;
+			background-color: white;
+			float: left;
+			border-radius: 0px 0px 0px 20px;
+		}
+		#rside{
+			height: 1000px;
+			width: 300px;
+			background-color: lightgrey;
+			 float: right;
+			border-radius: 0px 0px 20px 0px;
+		}
+		#footer{
+			height: 270px;
+			width: 1000px;
+			background-color: white;
+			border-radius: 20px;
+			margin-top: 20px;
+			border:1px solid white;
+		}
+		
+		#search{
+			height: 30px;
+			width: 200px;
+			float: right;
+			margin-top: 10px;
+			margin-right: 20px;
+		}
+		#icon{
+			height: 8px;
+			width: 8px;
+			float: right;
+			border: 1px solid;
+		}
+		#template{
+			height: 120px;
+			width: 700px;
+			/*border: 1px solid;*/
+			margin-left: 45px;
+		}
+		#image{
+			height: 200px;
+			width: 100px;
+			margin-left: 45px;
+			margin-right: 20px;
+		}
+		#shortpara{
+			height: 120px;
+			width: 645px;
+			/*border: 1px solid;*/
+			margin-left: 45px;
+		}
+		#longpara{
+			height: 400px;
+			width: 645px;
+			/*border: 1px solid;*/
+			margin-left: 45px;
+		}
+		#pgchange{
+			height: 60px;
+			width: 697px;
+			/*border: 1px solid;*/
+			}
+		#lft{
+			height: 30px;
+			width: 100px;
+			/*border: 1px solid;
+*/			margin-left: 45px;
+			margin-top: 15px;
+			float: left;
+		}
+		#rght{
+			height: 30px;
+			width: 100px;
+			/*border: 1px solid;*/
+			margin-left: 10px;
+			margin-top: 15px;
+			float: right;
+		}
+		#c1{
+			height: 30px;
+			width: 30px;
+			border: 1px solid;
+			float: left;
+			background-color: green;
+			border-color: grey;
+		}
+		#c2{
+			height: 30px;
+			width: 30px;
+			border: 1px solid;
+			float: left;
+			margin-left: 2px;
+			border-color: grey;
+		}
+		#c3{
+			height: 30px;
+			width: 30px;
+			border: 1px solid;
+			float: right;
+			border-color: grey;
+		}
+		#upper{
+			height: 240px;
+			width: 260px;
+			/*border : 1px solid;*/
+			margin-left: 50px;
+			margin-top: 40px;
+		}
+		#lower{
+			height: 500px;
+			width: 260px;
+			/*border : 1px solid;*/
+			margin-left: 50px;
+		}
+		.class1{
+			height: 230px;
+			width: 310px;
+			/*border: 1px solid;	*/															/*border-right: collapse;*/
+			margin-top: 20px;
+			margin-left: 15px;
+			float: left;
+		}
+		#roww1{
+			height: 70px;
+			width: 300px;
+			/*border : 1px solid;*/
+		}
+		#roww2{
+			height: 70px;
+			width: 300px;
+			/*border : 1px solid;*/
+			margin-top: 5px;
+		}
+		.boxx1{
+			height: 60px;
+			width: 70px;
+			/*border: 1px solid;*/
+			float: left;
+		}
+		.boxx2{
+			height: 60px;
+			width: 70px;
+			/*border: 1px solid;*/
+			margin-left:28px;
+			float: left;
+		}
+		.boxx3{
+			height: 60px;
+			width: 70px;
+			/*border: 1px solid;*/
+			float:  right;
+			margin-right: 25px;
+		}
+		#copy{
+			margin-left: 45px;
+		}
+	</style>
+</head>
+<body bgcolor="green">
+	<div id="outer">
+		<h1><span style="color: white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LimeJungle</span></h1>
+		<div id="menu">
+			<div id="search">
+				<input type="text" name="search" placeholder="Search our site">
+			</div>
+			<ul>
+				<br/>
+				<li style="color: grey">HOME</li>
+				<li style="color: grey">COMPANY</li>
+				<li style="color: grey">NEWS</li>
+				<li style="color: grey">PACKAGES</li>
+				<li style="color: grey">CONTACTS</li>
+				<li style="color: grey">SEARCH</li>
+			</ul>
+			<!-- <div id="icon"></div> -->
+		</div>
+		<div id="slider">
+			<img src="2.jpg" height="250" width="1000">
+		</div>
+		<div id="parent">
+			<div id="lside">
+				<div id="template">
+					<br/><br/>
+					<h2>Template License</h2>
+					<p style="color: grey">Date:<span style="color: green"><u>15.03.2018</u></span> | Posted by <span style="color: green"><u>Owner</u></span> | Filed under <span style="color: green"><u>templates,Internet</u></span> with comments <span style="color: green"><u>(11)</u></span></p>
+				</div>
+				<br/>
+				<div id="image">
+					<img src="1.jpg" width="640px">
+				</div>
+				<div id="shortpara">
+					<p style="color: grey">This is a free CSS Website template by FreeWebsiteTemplate.com. This work is distributed under the Creative Commons attribute 3.0 Licence, which means that you are freeto use it for any personal or commercial purpose provided the Credit links in the template footer are left intact.</p>
+					<br/>
+					<span style="color: green"><u>Read More>></u></span>
+					<br/>
+					
+				</div>
+				<hr/>
+				<div id="longpara">
+					<h2>Laptop in meeting room</h2>
+					<p>
+						<p style="color: grey">Date:<span style="color: green"><u>15.03.2018</u></span> | Posted by <span style="color: green"><u>Owner</u></span> | Filed under <span style="color: green"><u>templates,Internet</u></span> with comments <span style="color: green"><u>(8)</u></span>
+							<p style="color: grey">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincident, orci ac convallis aliquem, lectus turpis varius lorem, eu posuere nunc iusto tempus leo, Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla velit magna. Phasellus suscipit leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci portitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam.
+							</p>
+							<p style="color: grey">
+							Mauris ac odio massa. Maecenas tellus turpis, consequat et congue vitae, dignissim ac sem. Nunc feugiat rhoncus libero, sed venenatis quam accumsan sed. Praesent malesuada fringilla pulvinar. Curabitur sodales urna a orci volutpat mollis. Vivamus sit amet leo a leo condimentum iaculis. Sed sodales mattis eleifend. Aliquam sed condimentum massa. Nullam at orci nibh. Aliquam luctus fringilla facilisis. Nam imperdiet.
+							</p>
+							<br/>
+							<span style="color: green"><u>Read More>></u></span>
+						</p>
+
+					</p>
+				</div>
+				<hr/>
+				<div id="pgchange">
+					<div id="lft"><p><span style="color: grey">Page 1 of 2</span></p></div>
+					<div id="rght">
+						<div id="c1">
+							<center> <span style="color: white"> 1 </span> </center>
+						</div>
+						<div id="c2">
+							<center> <span style="color: grey"> 2 </span> </center>
+						</div>
+						<div id="c3">
+							<center> <span style="color: grey"> >> </span> </center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="rside">
+				<div id="upper">
+					<h2>Sidebar Menu</h2>
+					<p style="color: grey">Home</p>
+					<p style="color: grey">Template Info</p>
+					<p style="color: grey">Style Demo</p>
+					<p style="color: grey">Blog</p>
+					<p style="color: grey">Archives</p>
+				</div>
+				<div id="lower">
+					<h2>Sponsors</h2>
+					<p style="color: grey">Lorem ipsum dolor <br/>Donec libero, Suspendisse bibendum</p>
+					<p style="color: grey">Dui pede condimentum <br/> phasellus suscipit leo a phareta</p>
+					<p style="color: grey">Condimentum lorem <br/> Tellus eleifend magna eget</p>
+					<p style="color: grey">Fringilla velit magna <br/> Curabitur vel urna in tristique</p>
+					<p style="color: grey">Suspendisse bibendum <br/> Cras id urna orbi tincidunt orci ac</p>
+					<p style="color: grey">Donec mattis <br/> purus nec placerat bibendum</p>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="class1">
+				<h2>Image Gallery</h2>
+				<div id="roww1">
+					<div class="boxx1"> <img src="p1.jpg" height="60px" width="70px"> </div>
+					<div class="boxx2"><img src="p2.jpg" height="60px" width="70px"></div>
+					<div class="boxx3"><img src="p3.jpg" height="60px" width="70px"></div>
+				</div>
+				<div id="roww2">
+					<div class="boxx1"><img src="p4.jpg" height="60px" width="70px"></div>
+					<div class="boxx2"><img src="p5.jpg" height="60px" width="70px"></div>
+					<div class="boxx3"><img src="p6.jpg" height="60px" width="70px"></div>
+				</div>
+			</div>
+			<div class="class1">
+				<h2>Lorem Ipsum</h2>
+				<p style="color: grey">Lorem ipsum dolor <br/> Donec libero, Suspendisse bibendum
+					Dui pede condimentum phasellus suscipit leo a phareta
+					Condimentum lorem Tellus eleifend magna eget
+					Fringilla velit magna Curabitur vel urna in tristique
+					Suspendisse bibendum Cras id urna.</p>
+			</div>
+			<div class="class1">
+				<h2>Contact</h2>
+				<p style="color: grey">Praesent dapibus, neque id cursus faucibus, <br/> tortor neque egestas augue.</p>
+				<p style="color: green"><u>support@yoursite.com</u></p>
+				<p style="color: grey">+1(123)444-5677 <br/>
+					+1(123)444-5678 <br/> <br/>
+					Address: 123 TemplateAccess Rd1
+				</p>
+			</div>
+		</div>
+		<div id="copy">
+			<p> <span style="color: grey">Copyright &copy; 2010 Sitename-All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free CSS Templates by Free website TemplateZ</span></p>
+		</div>
+	</div>
+</body>
+</html>
